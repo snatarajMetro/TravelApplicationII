@@ -1,0 +1,26 @@
+1/29/2018 10:55:56 AM: Validate travel request info Invalid Departure Date
+1/29/2018 10:55:56 AM: SaveTravelRequestInput : Invalid Departure Date
+1/29/2018 10:55:56 AM: api/travelrequest/saveNew :Couldn't save record into Travel Request - 
+1/29/2018 10:56:08 AM: Validate travel request info Invalid Departure Date
+1/29/2018 10:56:08 AM: SaveTravelRequestInput : Invalid Departure Date
+1/29/2018 10:56:08 AM: api/travelrequest/saveNew :Couldn't save record into Travel Request - 
+1/29/2018 3:05:54 PM: api/login : Object reference not set to an instance of an object.
+1/30/2018 8:58:15 AM: Starting Crystal Report
+1/30/2018 8:58:26 AM: api/travelrequestReport/{travelRequestId} - Travel Request :Database logon failed.
+1/30/2018 8:58:31 AM: Starting Crystal Report
+1/30/2018 9:50:19 AM: api/travelrequestReport/{travelRequestId} - Travel Request :Database logon failed.
+1/30/2018 9:50:20 AM: Starting Crystal Report
+1/30/2018 9:51:49 AM: Starting Crystal Report
+1/30/2018 9:52:44 AM: Starting Crystal Report
+4/13/2018 3:24:15 PM: DocumentRepository : UploadFileInfoORA-01006: bind variable does not exist
+4/13/2018 3:24:15 PM: Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:24:15 PM: api/documents/savenotes : Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:27:07 PM: DocumentRepository : UploadFileInfoORA-02291: integrity constraint (TAER.SYS_C0013613) violated - parent key not found
+4/13/2018 3:27:07 PM: Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:27:07 PM: api/documents/savenotes : Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:27:47 PM: DocumentRepository : UploadFileInfoORA-02291: integrity constraint (TAER.SYS_C0013613) violated - parent key not found
+4/13/2018 3:27:47 PM: Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:27:47 PM: api/documents/savenotes : Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:29:45 PM: DocumentRepository : UploadFileInfoORA-02291: integrity constraint (TAER.SYS_C0013613) violated - parent key not found
+4/13/2018 3:29:45 PM: Unable to upload justifaction memosCouldn't save file name to database
+4/13/2018 3:29:45 PM: api/documents/savenotes : Unable to upload justifaction memosCouldn't save file name to database
