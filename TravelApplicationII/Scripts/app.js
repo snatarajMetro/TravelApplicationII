@@ -19,6 +19,11 @@ app.config(['$routeProvider', '$locationProvider', function AppConfig($routeProv
             controller: 'loginController',
             css: 'content/login.css'
         })
+        .when('/role/:userName?', {
+            templateUrl: 'roleModalContainer',
+            controller: 'roleController',
+            css: 'content/login.css'
+        })
         .otherwise({
             redirectTo: "/"
         });
