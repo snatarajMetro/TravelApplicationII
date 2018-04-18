@@ -1,10 +1,37 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="travelAppDemo">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Travel Application</title>
-	<meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <base href="/" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/ui-grid.js"></script>
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/ui-bootstrap-tpls-0.14.1.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/login.js"></script>
+    <link href="Content/ui-grid.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/login.css" rel="stylesheet">
+    <script type="text/ng-template" id="loginModalContainer">
+        <div ng-controller="loginController"></div>
+    </script>
 </head>
 <body>
-
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Travel Application</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="login"><a href="/login" style="margin-right:50px;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li id="logout" style="display:none;"><a href="/login" style="margin-right:50px;"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div ng-view></div>
 </body>
 </html>

@@ -1,0 +1,67 @@
+﻿#loginContainer {
+    
+}
+
+div.modal-content {
+    width: 450px; 
+    margin-top:100px;
+}
+
+.userlabel {
+    font-size: 20px;
+}
+
+.username {
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: solid 1px gray;
+    padding-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 400px;
+    min-height: 35px;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.password {
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: solid 1px gray;
+    padding-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 400px;
+    min-height: 35px;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.signinbutton {
+    width: auto;
+    min-width: 100px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    /*background-image: url('../Images/images2.jpg');*/
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.navbar-brand{
+    color:white;
+}
+
+.navbar-inverse .navbar-brand .navbar-nav > li > a {
+    color: white;
+}

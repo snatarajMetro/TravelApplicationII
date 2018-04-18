@@ -1,0 +1,29 @@
+﻿<div id="loginContainer">
+    <div class="modal-header container-fluid" style="height:70px;">
+        <div class="row">
+            <div class="col-md-2 col-sm-6" style="width:55px;">
+                <img src="../Images/logo.png" width="45" height="45" />
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h3 style="margin-top:10px;">Sign in</h3>
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div id="signin">
+            <div>
+                <span class="userlabel">Username</span><br />
+                <input type="text" name="txtEmail" class="username" placeholder="User name" ng-model="userName" />
+            </div>
+            <div>
+                <span class="userlabel">Password</span><br />
+                <input type="password" name="txtPassword" class="password" placeholder="Password" />
+            </div>
+            <div>
+                <div class="text-center">
+                    <button class="btn btn-primary signinbutton" ng-click="sigin(userName)">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

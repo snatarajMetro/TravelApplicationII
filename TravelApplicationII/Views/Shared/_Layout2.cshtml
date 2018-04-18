@@ -1,48 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title</title>
+    <head>
+    </head>
+<body>
 
-    <link rel="icon" href="/favicon.ico" />
-    <link href="/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/Content/dropzone.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/Dependencies/ui-grid.css" type="text/css">
-    <link href="/Content/app.css" rel="stylesheet" type="text/css" />
-    <link href="/Content/font.css" rel="stylesheet" type="text/css" />
-    <link href="~/Dependencies/roboto.css" rel="stylesheet">
-    <link rel="stylesheet" href="/Dependencies/bootstrap-datepicker3.css" />
-
-    <script src="/Scripts/modernizr-2.8.3.js"></script>
-    <script src="/Scripts/jquery-3.1.1.min.js"></script>
-    <script src="/Dependencies/angular.min.js"></script>
-    <script src="/Dependencies/ui-grid.js"></script>
-    <script type="text/javascript" src="/Dependencies/bootstrap-datepicker.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/ng-currency/1.2.3/ng-currency.js"></script>*@
-    <script src="/Scripts/travelrequest.js"></script>
-    <script src="/Scripts/dropzone.js"></script>
-    <script src="/Scripts/app.js"></script>
-    <script src="~/Dependencies/d3.v3.min.js"></script>
-</head>
-<body class="appbackground">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div style="float:left">
-            <img src="~/Images/logo.jpg" width="45" height="45" />
-        </div>
-        <div>
-            @Html.ActionLink("TRAVEL REQUEST / AUTHORIZATION", "Index2", "Login", new { area = "" }, new { @class = "logotitle" })
-        </div>
-        <div id="logout" class="logout">
-            <span onclick="logout()">Log out</span>
-        </div>
-    </div>
-    <div class="container body-content">
-        <div class="maincontent">
-            @RenderBody()
-        </div>
-    </div>
 </body>
 </html>

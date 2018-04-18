@@ -118,6 +118,7 @@
   <ItemGroup>
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\login.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\ui-grid.css" />
@@ -154,9 +155,12 @@
     <Content Include="logs\log1.txt" />
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\login.js" />
     <Content Include="Scripts\ui-bootstrap-tpls-0.14.1.js" />
     <Content Include="Scripts\ui-grid.js" />
+    <Content Include="UITemplates\login.html" />
     <Content Include="Views\Shared\wallpaper.png" />
     <Content Include="Web.config" />
   </ItemGroup>
