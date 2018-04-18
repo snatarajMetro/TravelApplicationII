@@ -117,8 +117,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\app.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\ui-grid.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\approve.png" />
     <Content Include="Images\approve1.png" />
