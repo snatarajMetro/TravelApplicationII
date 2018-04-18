@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -149,6 +150,11 @@
     <Content Include="Index.html" />
     <Content Include="logs\log.txt" />
     <Content Include="logs\log1.txt" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\ui-bootstrap-tpls-0.14.1.js" />
+    <Content Include="Scripts\ui-grid.js" />
     <Content Include="Views\Shared\wallpaper.png" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -282,7 +288,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="DAL\DataContracts\" />
     <Folder Include="Reports\Exported\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Reports\Travel_Business_Expense.rpt">
